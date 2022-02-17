@@ -16,7 +16,7 @@ Em seguida a porta 8080 é exposta e o comando node server.js é executado para 
 
 Para utilização da imagem:
 
-    docker run -d timeuz/conversao-temperatura
+    docker run -d -p 8080:8080 timeuz/conversao-temperatura
 
 Em seguida acessar no navegador:
 
